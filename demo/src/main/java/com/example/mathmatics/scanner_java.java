@@ -10,8 +10,10 @@ public class scanner_java {
         System.out.println("enter the value of Y:");
         double y = sc.nextDouble();
         System.out.println("enter the value of z:");
-        double z = sc.nextdouble();
+        double z = sc.nextDouble();
         double result =0;
-        result = Math.cbrt(Math.pow(x,2)+Math.pow(y,2)+
+        result = Math.cbrt(Math.pow(x,2)+Math.pow(y,2)-Math.abs(z));
+        System.out.println(result);
+
     }
 }
